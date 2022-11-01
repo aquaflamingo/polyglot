@@ -17,7 +17,8 @@
 #   or m^2 if size is the same, but m would be 1/2 of n in this case
 
 # input = [1,2,3,0,0,4,6,0,8,8,0,10,13,0,15,0,0,18]
-input = [0,1,2,3,0,4,6,7,0,9,0] zero_indices = []
+input = [0,1,2,3,0,4,6,7,0,9,0]
+zero_indices = []
 
 input.each_with_index do |element, index|
   zero_indices << index if element.zero?
